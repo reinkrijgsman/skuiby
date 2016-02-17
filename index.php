@@ -37,11 +37,11 @@
       </div>
     
       <div class="navbar-center-fix">
-        <div id="navbar" class="navbar-collapse collapse col-sm-6 col-md-6 col-md-offset-3">
+        <div id="navbar" class="navbar-collapse collapse col-sm-6 col-md-6 col-md-offset-1">
           <ul class="nav navbar-nav center">
-            <li><a href="#">Browse categories</a></li>
-            <li><a href="#">Live events</a></li>
-            <li><a href="#">View charts</a></li>
+            <li><a href="#"><i class="fa fa-bars"></i>Browse categories</a></li>
+            <li><a href="#"><i class="fa fa-bolt"></i> Live events</a></li>
+            <li><a href="#"><i class="fa fa-list-ol"></i> View charts</a></li>
           </ul>
         </div>
       </div><!-- .navbar-center-fix -->

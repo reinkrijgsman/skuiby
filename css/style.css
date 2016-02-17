@@ -97,6 +97,10 @@ h1, h2 { font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-ser
   text-transform: uppercase;
 }
 
+.navbar-header{
+	padding-bottom: 10px;
+}
+
 .navbar-brand{
     margin-left: 40px !important;
     padding: 12px 0px 0px 0px;
@@ -107,6 +111,14 @@ h1, h2 { font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-ser
 .navbar-center-fix {
   text-align: center;
   margin: 0px auto;
+  background-color: #262a32;
+}
+
+@media (max-width: 768px) {
+  .navbar-center-fix ul > li {
+	  text-align: center;
+	  width: 100%;
+  }
 }
 
 .navbar-nav > li {
@@ -118,7 +130,13 @@ h1, h2 { font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-ser
 	color: #fff !important;
 	font-size: 11.5px;
 	font-weight: bold;
-	padding: 20px 37.5px;
+	padding: 20px 70px;
+}
+
+.navbar-nav > li > a > i {
+	color: #fff !important;
+	font-size: 20px;
+	padding: 0px 10px;
 }
 
 /*
