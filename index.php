@@ -35,7 +35,7 @@
         </button>
         <a class="navbar-brand" href="#"><img src="/skuiby/site_img/logo.png" alt=" " /></a>
       </div>
-    
+
       <div class="navbar-center-fix">
         <div id="navbar" class="navbar-collapse collapse col-sm-6 col-md-6 col-md-offset-1">
           <ul class="nav navbar-nav center">
@@ -45,7 +45,7 @@
           </ul>
         </div>
       </div><!-- .navbar-center-fix -->
-      
+
     </div><!-- .row -->
   </div><!-- .container-fluid -->
 </nav>
@@ -53,7 +53,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-3 col-md-2 sidebar">
-      
+
       <div class="row sidebar-profile">
         <div class="col-sm-12 col-md-6 col-md-offset-3 sidebar-profile-picture placeholder">
           <img src="/skuiby/site_img/profile.jpg" alt=" " class="img-responsive" />
@@ -61,9 +61,9 @@
           <p>Viewer</p>
         </div><!-- .sidebar-profile-picture -->
       </div><!-- .sidebar-profile -->
-      
+
       <hr />
-      
+
       <h3 class="text-red h3fix"><i class="fa fa-tags"></i>My categories</h3>
       <ul class="nav nav-sidebar">
         <li><a href="#">Electro (61245)</a></li>
@@ -72,9 +72,9 @@
         <li><a href="#">Techno (2364)</a></li>
         <li><a href="#">Trance (4623)</a></li>
       </ul>
-      
-      <hr />      
-      
+
+      <hr />
+
       <h3 class="text-red"><i class="fa fa-list-ol"></i>Top artists</h3>
       <ol class="nav nav-sidebar list-group">
         <li><a href="#">Dimitri Vegas & Like Mike</a></li>
@@ -84,25 +84,25 @@
         <li><a href="#">David Guetta</a></li>
       </ol>
       <a class="btn btn-primary buttons button-gray" href="#">View complete list</a>
-      
+
       <div class="searchbar">
         <form>
           <input class="sidebar-search" type="text" name="search" placeholder="Search..." />
         </form>
       </div><!-- .searchbar -->
-      
+
     </div><!-- .sidebar -->
-    
-    
+
+
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 <!--       <h1 class="page-header">Dashboard</h1> -->
 
 		  <div class="dj-thumbnails">
-  		
+
   			<div class="dj-thumb-wrap col-sm-6 col-md-3">
   				<div class="dj-thumb">
     				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb1.jpg');"> 
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb1.jpg');">
   						<h3>Wobble</h3>
   						<i class="fa fa-circle"> Now live</i>
   					</div>
@@ -112,11 +112,11 @@
   					<p>Hier komt de omschrijving van het evenement te staan.</p>
   				</div>
   			</div>
-  			
+
   			<div class="dj-thumb-wrap col-sm-6 col-md-3">
   				<div class="dj-thumb">
     				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb2.jpg');"> 
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb2.jpg');">
   						<h3>DJ naam</h3>
   						<i class="fa fa-circle"> Now live</i>
   					</div>
@@ -126,137 +126,11 @@
   					<p>Hier komt de omschrijving van het evenement te staan.</p>
   				</div>
   			</div>
-  			
+
   			<div class="dj-thumb-wrap col-sm-6 col-md-3">
   				<div class="dj-thumb">
     				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb3.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Title</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb"> 
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb4.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Title</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb"> 
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb5.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Title</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb">
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb6.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Title</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb">
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb1.jpg');"> 
-  						<h3>Wobble</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">90’s Drum & Bass hit mix</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb">
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb2.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Epic drum & Bass club</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb">
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb3.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Title</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb"> 
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb4.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Title</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb"> 
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb5.jpg');"> 
-  						<h3>DJ naam</h3>
-  						<i class="fa fa-circle"> Now live</i>
-  					</div>
-  				</div>
-  				<div class="thumb-outer-content">
-  					<h2 class="text-red">Title</h2>
-  					<p>Hier komt de omschrijving van het evenement te staan.</p>
-  				</div>
-  			</div>
-  			
-  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
-  				<div class="dj-thumb">
-    				<div class="dj-thumb-gradient"></div>
-  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb6.jpg');"> 
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb3.jpg');">
   						<h3>DJ naam</h3>
   						<i class="fa fa-circle"> Now live</i>
   					</div>
@@ -267,7 +141,133 @@
   				</div>
   			</div>
 
-			
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb4.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Title</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb5.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Title</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb6.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Title</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb1.jpg');">
+  						<h3>Wobble</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">90’s Drum & Bass hit mix</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb2.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Epic drum & Bass club</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb3.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Title</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb4.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Title</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb5.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Title</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+  			<div class="dj-thumb-wrap col-sm-6 col-md-3">
+  				<div class="dj-thumb">
+    				<div class="dj-thumb-gradient"></div>
+  					<div class="thumb-inner-content" style="background-image: url('/skuiby/site_img/thumb6.jpg');">
+  						<h3>DJ naam</h3>
+  						<i class="fa fa-circle"> Now live</i>
+  					</div>
+  				</div>
+  				<div class="thumb-outer-content">
+  					<h2 class="text-red">Title</h2>
+  					<p>Hier komt de omschrijving van het evenement te staan.</p>
+  				</div>
+  			</div>
+
+
     	</div><!-- .dj-thumbnails -->
     </div><!-- .main -->
   </div>
@@ -286,37 +286,50 @@
 
 
 <div class="navbar navbar-inverse navbar-fixed-bottom nav-player" role="navigation">
-			
-	<div class="col-md-2">
-		<i class="fa fa-headphones"> Now playing</i>
+
+	<div class="col-md-2 pb-now-playing">
+		<i class="fa fa-headphones"></i><span>Now playing</span>
 	</div>
-	<div class="col-md-3">
-		<div class="now-playing-thumb" style="background-image: url('/skuiby/site_img/profile.jpg');">
-			<div class="now-playing-rank">
+	<div class="col-md-1">
+		<div class="pb-now-playing-thumb" style="background-image: url('/skuiby/site_img/profile.jpg');">
+			<div class="pb-now-playing-rank">
 				<p>#101</p>
 			</div>
 		</div>
-		<div class="now-playing-info">
+  </div>
+  <div class="col-md-2 pb-now-playing-info">
+		<div class="pb-name">
 			<h5>DJ Marcello scheefkaak (NL)</h5>
 			<p>The BOOM BOOM ROOM session</p>
 		</div>
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-4 pb-player">
 		<div class="player">
-			<i class="fa fa-stop">stop</i>
-			<i class="fa fa-pause">pause</i>
+			<div class="pb-player-stop">
+        <i class="fa fa-stop"></i>
+        stop
+      </div>
+			<div class="pb-player-pause">
+        <i class="fa fa-pause"></i>
+        pause
+      </div>
 		</div>
-		<div class="player-info">
+		<div class="pb-player-info">
 			<h5>00:14:29</h5>
 			<p>2 HOUR SET</p>
 		</div>
 	</div>
-	<div class="col-md-4">
-		<div class="player">
-			<i class="fa fa-volume-up">volume</i>
-			<i class="fa fa-television">bigscreen</i>
+	<div class="col-md-3">
+		<div class="pb-player-settings">
+			<div class="pb-volume">
+        <i class="fa fa-volume-up"></i><span>volume</span>
+      </div>
+      <div class="pb-bigscreen">
+			  <i class="fa fa-television"></i><span>bigscreen</span>
+      </div>
 		</div>
 	</div>
+
 </div>
 
 

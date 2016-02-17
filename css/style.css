@@ -41,8 +41,8 @@
 
 
 
-ol{ 
-	list-style: decimal inside; 
+ol{
+	list-style: decimal inside;
 }
 
 /*
@@ -81,7 +81,7 @@ h1, h2 { font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-ser
  * Top navigation
  * Hide default border to remove 1px line.
  */
- 
+
 .navbar {
   height: 60px;
   padding: 0px;
@@ -159,6 +159,7 @@ h1, h2 { font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-ser
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
     background-color: #fff;
+    /*min-width: 260px;*/
   }
 }
 
@@ -221,7 +222,7 @@ h1, h2 { font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-ser
 }
 
 
-ol.list-group li { 
+ol.list-group li {
     list-style: decimal inside;
     display: list-item;
 }
@@ -420,6 +421,138 @@ h3 i {
 
 
 
+/* PLAYER BAR */
+
+.pb-now-playing {
+  color: #812226;
+  padding: 24px 40px;
+}
+
+.pb-now-playing .fa {
+  font-size: 27px;
+  float: left;
+}
+
+.pb-now-playing span {
+  font-size: 13.5px;
+  font-weight: bold;
+  padding-left: 15px;
+  margin-top: 3px;
+  float: left;
+}
+
+.pb-now-playing-thumb {
+  width: 110px;
+  height: 100px;
+  background-size: cover;
+  margin-top: -30px;
+  box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.5);
+  font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.pb-now-playing-rank {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  position: relative;
+  top: 60px;
+  left: 70px;
+}
+
+.pb-now-playing-info .pb-name h5 {
+  font-size: 13.5px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding-top: 22px;
+}
+
+.pb-now-playing-info .pb-name p {
+  font-size: 11.5px;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+}
+
+.pb-player {
+  color: #fff;
+  padding-top: 16px;
+}
+
+.pb-player .pb-player-stop,
+.pb-player .pb-player-pause,
+.pb-player .pb-player-play {
+  font-size: 10px;
+  color: #812226;
+  width: 50px;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.pb-player-stop .fa {
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+.pb-player .pb-player-pause .fa,
+.pb-player .pb-player-play .fa {
+  font-size: 27px;
+  width: 100%;
+  float: left;
+  color: #fff;
+  padding-bottom: 3px;
+}
+
+.pb-player-info {
+  float: left;
+  padding-left: 30px;
+  display: block;
+  text-align: left;
+  color: #542123;
+  font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.pb-player-info h5 {
+  font-size: 21px;
+  margin: 0px;
+}
+
+.pb-player-info p {
+  font-family: "kelson_sansregular", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.pb-player-settings {
+  padding-top: 16px;
+  font-size: 10px;
+  color: #812226;
+  font-family: "kelson_sansbold", "Open Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  float: right;
+  padding-right: 20px;
+}
+
+.pb-player-settings div {
+  width: 50%;
+  max-width: 60px;
+  float: left;
+  text-align: center;
+}
+.pb-player-settings .fa {
+  font-size: 27px;
+  color: #fff;
+  float: left;
+  width: 100%;
+  padding-bottom: 3px;
+}
+
+
+
+
 
 /* BUTTON FIXES */
 
@@ -456,16 +589,3 @@ h3 i {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
